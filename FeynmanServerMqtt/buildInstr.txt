@@ -1,1 +1,0 @@
-gcc main.c -o main -lpthread -lrt -lpaho-mqtt3c
