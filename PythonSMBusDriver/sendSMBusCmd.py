@@ -20,7 +20,7 @@ def main():
 	
 		for i in data:
 			bus.write_byte(FyenmanExtDevAddr, i)
-	elif(sys.argv[1] == "-r");
+	elif(sys.argv[1] == "-r"):
 		print("reset");
 	else:
 		print("unknown command")
